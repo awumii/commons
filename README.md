@@ -1,4 +1,4 @@
-# commons [![GitHub stars](https://img.shields.io/github/stars/xxneox/commons)](https://github.com/xxneox/commons/stargazers) [![GitHub forks](https://img.shields.io/github/forks/xxneox/commons)](https://github.com/xxneox/commons/network) [![GitHub issues](https://img.shields.io/github/issues/xxneox/commons)](https://github.com/xxneox/commons/issues) [![GitHub license](https://img.shields.io/github/license/xxneox/commons)](https://github.com/xxneox/commons/blob/master/LICENSE) [![Java CI](https://github.com/xxneox/commons/actions/workflows/gradle.yml/badge.svg)](https://github.com/xxneox/commons/actions/workflows/gradle.yml)
+# commons [![Java CI](https://github.com/xxneox/commons/actions/workflows/gradle.yml/badge.svg)](https://github.com/xxneox/commons/actions/workflows/gradle.yml) [![Gradle Package](https://github.com/awumii/commons/actions/workflows/gradle-publish.yml/badge.svg)](https://github.com/awumii/commons/actions/workflows/gradle-publish.yml)
 Small library to simplify development of Minecraft plugins.  
 Requires Java 17.
 
