@@ -6,7 +6,7 @@ plugins {
 
 allprojects {
     group = "com.github.awumii"
-    version = "2.0.0"
+    version = "2.0.2"
 }
 
 subprojects {
