@@ -7,7 +7,7 @@ plugins {
 }
 
 allprojects {
-    group = "me.xneox"
+    group = "com.github.awumii"
     version = "1.0.1"
 }
 
@@ -28,13 +28,6 @@ subprojects {
 
     dependencies {
         implementation("org.jetbrains:annotations:24.0.0")
-
-        testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
-        testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
-    }
-
-    tasks.getByName<Test>("test") {
-        useJUnitPlatform()
     }
 
     tasks.withType<JavaCompile> {
