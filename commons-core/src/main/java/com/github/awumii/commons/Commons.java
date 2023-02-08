@@ -1,7 +1,7 @@
-package me.xneox.commons;
+package com.github.awumii.commons;
 
-import me.xneox.commons.java.LogUtils;
-import me.xneox.commons.java.UpdateChecker;
+import com.github.awumii.commons.java.LogUtils;
+import com.github.awumii.commons.java.UpdateChecker;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

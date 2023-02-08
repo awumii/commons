@@ -1,8 +1,7 @@
-package me.xneox.commons.database;
-
+package com.github.awumii.commons;
 
 import java.sql.SQLException;
-import me.xneox.commons.java.LogUtils;
+import com.github.awumii.commons.java.LogUtils;
 import org.jetbrains.annotations.NotNull;
 
 /**

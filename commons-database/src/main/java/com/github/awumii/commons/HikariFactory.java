@@ -1,8 +1,8 @@
-package me.xneox.commons.database;
+package com.github.awumii.commons;
 
 import com.zaxxer.hikari.HikariConfig;
 import java.io.File;
-import me.xneox.commons.java.FileUtils;
+import com.github.awumii.commons.java.FileUtils;
 import org.jetbrains.annotations.NotNull;
 
 /**

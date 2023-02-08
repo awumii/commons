@@ -1,4 +1,4 @@
-package me.xneox.commons.java;
+package com.github.awumii.commons.java;
 
 import java.io.File;
 import java.io.FileOutputStream;

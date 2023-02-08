@@ -1,4 +1,4 @@
-package me.xneox.commons.java;
+package com.github.awumii.commons.java;
 
 import java.io.IOException;
 import java.net.URL;
@@ -23,7 +23,7 @@ public final class URLUtils {
   public static String readString(@NotNull String url) {
     try {
       var connection = openConnection(url);
-      try (Scanner scanner = new Scanner(connection.getInputStream(), StandardCharsets.UTF_8.toString())) {
+      try (Scanner scanner = new Scanner(connection.getInputStream(), StandardCharsets.UTF_8)) {
         scanner.useDelimiter("\\A");
         return scanner.hasNext() ? scanner.next() : "";
       }

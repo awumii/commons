@@ -1,4 +1,4 @@
-package me.xneox.commons.java;
+package com.github.awumii.commons.java;
 
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;

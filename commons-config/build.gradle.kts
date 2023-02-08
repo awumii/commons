@@ -7,9 +7,9 @@ dependencies {
 }
 
 tasks.withType<ShadowJar> {
-    relocate("com.typesafe.config", "me.xneox.commons.libs.libs.config")
-    relocate("org.spongepowered.configurate", "me.xneox.commons.libs.libs.configurate")
-    relocate("io.leangen.geantyref", "me.xneox.commons.libs.libs.geantyref")
+    relocate("com.typesafe.config", "com.github.awumii.libs.config")
+    relocate("org.spongepowered.configurate", "com.github.awumii.libs.configurate")
+    relocate("io.leangen.geantyref", "com.github.awumii.libs.geantyref")
 }
 
 tasks {

@@ -1,4 +1,4 @@
-package me.xneox.commons.paper;
+package com.github.awumii.commons.paper;
 
 import com.google.common.base.Joiner;
 import java.util.List;

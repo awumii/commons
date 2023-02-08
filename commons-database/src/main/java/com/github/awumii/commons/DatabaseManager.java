@@ -1,4 +1,4 @@
-package me.xneox.commons.database;
+package com.github.awumii.commons;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import me.xneox.commons.java.LogUtils;
+import com.github.awumii.commons.java.LogUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

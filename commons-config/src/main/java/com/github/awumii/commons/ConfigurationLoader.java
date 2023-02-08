@@ -1,6 +1,6 @@
-package me.xneox.commons.config;
+package com.github.awumii.commons;
 
-import me.xneox.commons.java.LogUtils;
+import com.github.awumii.commons.java.LogUtils;
 import org.jetbrains.annotations.NotNull;
 import org.spongepowered.configurate.ConfigurateException;
 import org.spongepowered.configurate.hocon.HoconConfigurationLoader;

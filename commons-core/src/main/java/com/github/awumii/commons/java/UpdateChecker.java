@@ -1,4 +1,4 @@
-package me.xneox.commons.java;
+package com.github.awumii.commons.java;
 
 import java.util.function.Consumer;
 import org.jetbrains.annotations.NotNull;

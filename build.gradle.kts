@@ -8,7 +8,7 @@ plugins {
 
 allprojects {
     group = "com.github.awumii"
-    version = "1.0.1"
+    version = "2.0.0"
 }
 
 subprojects {
@@ -38,8 +38,7 @@ subprojects {
     // Publishing to jitpack.org
 
     tasks.withType<ShadowJar> {
-        // once these deprecated fields gets removed i'm gonna be fucked because nothing else works
-        archiveFileName.set("$baseName-$version.$extension")
+        archiveFileName.set("$archiveBaseName-$archiveVersion.$archiveExtension")
     }
 
     artifacts {

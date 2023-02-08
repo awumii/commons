@@ -1,10 +1,10 @@
-package me.xneox.commons.java;
+package com.github.awumii.commons.java;
 
 import org.jetbrains.annotations.NotNull;
 
 /**
  * Represents a SemVer version.
- * Created by brianguertin (https://gist.github.com/brianguertin/ada4b65c6d1c4f6d3eee3c12b6ce021b)
+ * Created by brianguertin (<a href="https://gist.github.com/brianguertin/ada4b65c6d1c4f6d3eee3c12b6ce021b">...</a>)
  */
 public class Version implements Comparable<Version> {
   public final int[] numbers;
